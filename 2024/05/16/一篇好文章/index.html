@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>我的技术与生活——小站首页 | Hexo</title>
+  <title>我的技术与生活——文章名称 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="/imgs/shortcut-icon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/css/public.css" />
@@ -16,7 +16,7 @@
 
   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <script>
-    document.title = `我的技术与生活——小站首页`
+    document.title = `我的技术与生活——文章名称`
   </script>
 <meta name="generator" content="Hexo 7.2.0"></head>
 
@@ -193,7 +193,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"Hello World","path":"2024/05/16/hello-world/"},{"title":"文章名称","path":"2024/05/16/文章名称/"},{"title":"","path":"2024/05/17/你好/"}]`)
+  const posts = JSON.parse(`[{"title":"Hello World","path":"2024/05/16/hello-world/"},{"title":"文章名称","path":"2024/05/16/一篇好文章/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -327,7 +327,7 @@
       </h5>
       <p class="main-left--subtitle">
         <span>文章数目：</span>
-        <span>3 篇</span>
+        <span>2 篇</span>
       </p>
       <p class="main-left--subtitle">
         <span>最近动态：</span>
@@ -351,7 +351,7 @@
 
 <div class="article-container">
   <div class="article">
-    <h1 class="article-title"></h1>
+    <h1 class="article-title">文章名称</h1>
     <div class="article-info">
       <div class="article-info--item">
         <div class="article-info--info">
@@ -367,20 +367,25 @@
             
           </div>
           
-          <p class="article-info--date">日期：2024-05-17 09:35:38</p>
+          <p class="article-info--date">日期：2024-05-16 20:57:09</p>
         </div>
         <img src="/imgs/default-cover.webp" alt="" class="article-cover">
       </div>
     </div>
     <article class="article-content markdown-body">
-      <p>hahaha</p>
-<p>sadfsfsavsc</p>
+      <ol>
+<li>参与产品设计和项目管理工作；</li>
+<li>负责产品规划、功能设计、业务流程设计、使用流程设计、产品优化等工作；</li>
+<li>制定产品需求计划,撰写用户需求说明书,负责需求的跟踪和控制；</li>
+<li>协助进行技术可行性分析和概要设计；</li>
+<li>制定产品业务规范，整理、完善产品文档,业务流程及相关内容。</li>
+</ol>
 
     </article>
     
     <div class="read-nums">
       <!-- id 将作为查询条件 -->
-      <span id="2024/05/17/你好/" class="leancloud_visitors" data-flag-title="Your Article Title">
+      <span id="2024/05/16/一篇好文章/" class="leancloud_visitors" data-flag-title="Your Article Title">
         <em class="post-meta-item-text">浏览量</em>
         <i class="leancloud-visitors-count"></i>
       </span>
@@ -404,7 +409,7 @@
           
             <p>
               <span>下一篇</span>
-              <a href="/2024/05/16/文章名称/">文章名称</a>
+              <a href="/2024/05/16/hello-world/">Hello World</a>
             </p>
           
         </div>
@@ -426,7 +431,7 @@
     recordIP: config.recordIP,
     visitor: config.visitor,
     enableQQ: config.enableQQ,
-    path: '2024/05/17/你好/'
+    path: '2024/05/16/一篇好文章/'
   })
 </script>
 
